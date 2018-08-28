@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout_sample;
+package com.innovationplatforms.bottomtablayout_sample;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
-import com.stfalcon.bottomtablayout.BottomTabLayout;
+import com.innovationplatforms.bottomtablayout.BottomTabLayout;
 
 public class MainActivity extends AppCompatActivity {
     private BottomTabLayout bottomTabLayout;

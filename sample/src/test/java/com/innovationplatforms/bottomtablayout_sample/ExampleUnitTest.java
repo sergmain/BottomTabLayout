@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout;
+package com.innovationplatforms.bottomtablayout_sample;
 
 import org.junit.Test;
 

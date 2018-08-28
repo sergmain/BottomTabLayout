@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stfalcon.bottomtablayout_sample.ColoredFragment">
+    tools:context="com.innovationplatforms.bottomtablayout_sample.ColoredFragment">
 
     <TextView
         android:id="@+id/title"

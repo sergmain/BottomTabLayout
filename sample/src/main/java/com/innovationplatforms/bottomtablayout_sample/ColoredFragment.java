@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout_sample;
+package com.innovationplatforms.bottomtablayout_sample;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;

@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout_sample;
+package com.innovationplatforms.bottomtablayout_sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

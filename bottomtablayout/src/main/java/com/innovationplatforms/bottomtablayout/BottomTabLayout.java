@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout;
+package com.innovationplatforms.bottomtablayout;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -16,7 +16,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.stfalcon.buttontablayout.R;
+import com.innovationplatforms.buttontablayout.R;
 
 import java.util.ArrayList;
 

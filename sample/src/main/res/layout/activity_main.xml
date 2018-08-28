@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.stfalcon.bottomtablayout_sample.MainActivity">
+    tools:context="com.innovationplatforms.bottomtablayout_sample.MainActivity">
 
     <FrameLayout
         android:id="@+id/container"
@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/bottomTabLayout" />
 
-    <com.stfalcon.bottomtablayout.BottomTabLayout
+    <com.innovationplatforms.bottomtablayout.BottomTabLayout
         android:id="@+id/bottomTabLayout"
         android:layout_width="match_parent"
         android:layout_height="56dp"

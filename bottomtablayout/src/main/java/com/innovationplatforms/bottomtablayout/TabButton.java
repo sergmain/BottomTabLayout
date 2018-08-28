@@ -1,4 +1,4 @@
-package com.stfalcon.bottomtablayout;
+package com.innovationplatforms.bottomtablayout;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.stfalcon.buttontablayout.R;
+import com.innovationplatforms.buttontablayout.R;
 
 /**
  * Created by Anton Bevza on 5/5/16.

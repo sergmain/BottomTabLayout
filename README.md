@@ -1,5 +1,8 @@
 # BottomTabLayout
 
+This is the fork from https://github.com/stfalcon-studio/BottomTabLayout
+
+
 ![alt tag](http://i.imgur.com/V7wwa9U.gif)
 
 Simple library for bottom tab layout
