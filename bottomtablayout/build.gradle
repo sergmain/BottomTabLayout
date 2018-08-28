@@ -1,5 +1,5 @@
-apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 27
@@ -13,7 +13,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 27
         versionCode 4
-        versionName "0.3"
+        versionName "0.1"
     }
     buildTypes {
         release {
@@ -23,14 +23,48 @@ android {
     }
 }
 
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.novoda:bintray-release:0.8.1'
+    }
+}
 
 publish {
-    groupId = 'com.github.innovationplatforms'
+    groupId = 'com.innovationplatforms'
     artifactId = 'bottomtablayout'
-    publishVersion = '0.3'
+    publishVersion = '0.1'
     desc = 'Simple library for android Bottom tab layout view'
     licences = ['Apache-2.0']
     website = 'https://github.com/sergmian/BottomTabLayout'
+    repoName = 'my_repo'
+    userOrg = 'sergmain'
+}
+
+ext {
+    bintrayRepo = 'my_repo'
+    bintrayName = 'bottomtablayout'   // Has to be same as your library module name
+
+    publishedGroupId = 'com.innovationplatforms'
+    libraryName = 'BottomTabLayout'
+    artifact = 'bottomtablayout'     // Has to be same as your library module name
+
+    libraryDescription = 'Simple library for android Bottom tab layout view'
+
+    // Your github repo link
+    siteUrl = 'https://github.com/sergmain/BottomTabLayout'
+    gitUrl = 'https://github.com/sergmain/BottomTabLayout.git'
+    githubRepository= 'sergmain/BottomTabLayout'
+
+    libraryVersion = '0.1'
+
+    developerId = 'sergmain'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
 }
 
 dependencies {
